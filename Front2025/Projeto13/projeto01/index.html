@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+
+<body>
+
+    <div class="calculadora">
+
+        <div class="inputs">
+            <!--  <label for="">Numero1</label> (Informar no input) -->
+            <input type="number" id="numero1" placeholder="numero1"> <!--( placeholder Informar no input )-->
+            <input type="number" id="numero2" placeholder="numero2"> <!--( placeholder Informar no input )-->
+        </div>
+
+
+
+        <div class="botoes">
+            <button onclick="somar()">+</button> <!--( onclick chama java )-->
+            <button onclick="subtrair()">-</button> <!--( onclick chama java )-->
+            <button onclick="dividir()">/</button> <!--( onclick chama java )-->
+        </div>
+
+
+
+        <div class="resultado">
+            <h1>Resultado</h1>
+            <h2 id="resultado"></h2>
+        </div>
+
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+th,td { /*( Selecionando as estruturas do html (TH e TD) )*/
+    border: 1px solid #000; /*( Dando borda a essas extruturas )*/
+    border-radius: 5px; /*( Serve para arrendondar as bordas )*/
+    background-color: red; /*( Cor de fundo da tabela )*/
+    padding: 10px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.tabela {
+    width: 60%; /*( Ajustar a largura da tabela )*/
+    /*background-color: burlywood; ( Cor de fundo da tabela )*/
+    /*border-collapse: collapse; ( Para juntar as linhas da tabela )*/
+}
+
+.relatorio { /*( Alinhar tabela ao centro da pagina )*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+th { /*( Letras de titulo da tabela )*/
+    background-color: #000; 
+    color: white;
+}

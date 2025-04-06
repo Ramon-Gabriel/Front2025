@@ -1,0 +1,71 @@
+body { /*( Pagina no geral )*/
+    font-family: Arial, Arial, Helvetica, sans-serif; /*( Fonte da escrita )*/
+    background-color: #deffee; /*( Cor da pagina )*/
+    border-radius: 5px; 
+}
+
+h1#principal { /*( Titulo principal da pagina )*/
+    text-align: center;
+    background-color: #3c805e; /*( Cor da barra )*/
+    color: black; /*( Cor do texto )*/
+    border-radius: 5px; /*( Tamanho da borda )*/
+    width: 600px; /*( Tamanho da barra de cor )*/
+    padding:20PX;
+}
+
+.topo { /*( Titulo principal da pagina )*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+H1 {
+    color: #12251c; /*( Cor do texto )*/
+}
+
+.status {
+    color: black; /*( Cor do subtitulo )*/
+}
+
+.texto {
+    text-align:justify; /*( Alinhamento de texto )*/
+}
+
+header {
+    background-color: #3c805e; /*( Cor da barra )*/
+    color: #12251c; /*( Cor do texto )*/
+    text-align: center; /*( Centralizar texto )*/
+    padding: 20px;
+    width: 1500PX; /*( Tamanho da barra de cor )*/
+    border-radius: 5px; /*( Tamanho da borda )*/
+
+    margin: 20px auto; /*( Não tirar! Se não fudeu! )*/
+}
+
+section {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.projeto {
+    background: #e3f2fd;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #0073e6;
+    color: white;
+    width: 100%;
+}
+
+.imangem {
+text-align: center;
+}

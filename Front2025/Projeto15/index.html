@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <style>
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .botoes{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+        }
+    </style> -->
+</head>
+
+<body>
+    <div class="calculadora">
+        <div class="display">
+            <input type="text" id="tela" readonly>
+        </div>
+        <div class="botoes">
+            <button onclick="limpar('AC')">AC</button>
+            <button onclick="expressao('X')">X</button>
+            <button onclick="expressao('%')">%</button>
+            <button onclick="expressao('/')">/</button>
+
+            <button onclick="expressao('7')">7</button>
+            <button onclick="expressao('8')">8</button>
+            <button onclick="expressao('9')">9</button>
+            <button onclick="expressao('*')">*</button>
+
+            <button onclick="expressao('4')">4</button>
+            <button onclick="expressao('5')">5</button>
+            <button onclick="expressao('6')">6</button>
+            <button onclick="expressao('-')">-</button>
+
+            <button onclick="expressao('3')">3</button>
+            <button onclick="expressao('2')">2</button>
+            <button onclick="expressao('1')">1</button>
+            <button onclick="expressao('+')">+</button>
+
+            <button onclick="expressao('?')">?</button>
+            <button onclick="expressao('0')">0</button>
+            <button onclick="expressao(',')">,</button>
+            <button onclick="resultado('=')">=</button>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="topo">
+        <h1>Cadastro de usuarios</h1>
+    </div>
+    <div class="formuario">
+        <form>
+            <label for="">Nome:</label> <!--( Nome antes do campo )-->
+            <input type="text" name="nome" id="nome"> <!--( Campo de pesquisa )-->
+            <!--( <input type="submit" value="Enviar"> | Obriga o user a preencher com algo )-->
+
+            <!-- <p></p> ( Gambiarra para dividir linha )-->
+
+            <label for="">Idade:</label> <!--( Campo de pesquisa )-->
+            <input type="number" name="idade" id="idade"> <!--( Nome antes do campo )-->
+            <!--( <input type="submit" value="Enviar"> | Obriga o user a preencher com algo )-->
+
+            <!-- <p></p> ( Gambiarra para dividir linha )-->
+
+            <label for="">Data:</label> <!--( Campo de pesquisa )-->
+            <input type="date" name="date" id="date"> <!--( Nome antes do campo )-->
+            <!--( <input type="submit" value="Enviar"> | Obriga o user a preencher com algo )-->
+
+            <!-- <p></p> ( Gambiarra para dividir linha )-->
+
+            <label for="">Email:</label> <!--( Campo de pesquisa )-->
+            <input type="email" name="email" id="email"> <!--( Nome antes do campo )-->
+            
+            <label for="">Estado</label> <!--( Selecionar a Região )-->
+            <select name="estado" id="estado">
+                <option value="Parana">Parana</option>
+                <option value="SC">Santa Catarina</option>
+            </select>
+
+            <label for="">Cidades</label> <!--( Selecionar a Região )-->
+            <input list="Cidades"> <!--( Necessario nesse caso )-->
+            <datalist  id="cidades">
+                <option value="Maringa">Maringa</option>
+                <option value="Mandaguari">Mandaguari</option>
+            </datalist>
+            
+            <input type="submit" value="Enviar"> <!--( Obriga o user a preencher com algo )-->
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    
+    <div class="tabuleiro">
+        <div class="linha"> <!--( Tabuleiro com peças )-->
+            <div class="branco" onclick="handleClick(this)"><div class="pecaP" onclick="selecionarPeca(event, this)">♜</div></span></div>
+            <div class="preto" onclick="handleClick(this)"><div class="pecaP" onclick="selecionarPeca(event, this)">♝</div></span></div>
+            <div class="branco" onclick="handleClick(this)"><div class="pecaP" onclick="selecionarPeca(event, this)">♞</div></span></div>
+            <div class="preto" onclick="handleClick(this)"><div class="pecaP" onclick="selecionarPeca(event, this)">♛</div></span></div>
+            <div class="branco" onclick="handleClick(this)"><div class="pecaP" onclick="selecionarPeca(event, this)">♚</div></span></div>
+            <div class="preto" onclick="handleClick(this)"><div class="pecaP" onclick="selecionarPeca(event, this)">♞</div></span></div>
+            <div class="branco" onclick="handleClick(this)"><div class="pecaP" onclick="selecionarPeca(event, this)">♝</div></span></div>
+            <div class="preto" onclick="handleClick(this)"><div class="pecaP" onclick="selecionarPeca(event, this)">♜</div></span></div>
+        </div>
+
+        <div class="linha"> <!--( Tabuleiro com peças )-->
+            <div class="preto" onclick="handleClick(this)"><div class="pecaP" onclick="selecionarPeca(event, this)">♟</div></span></div>
+            <div class="branco" onclick="handleClick(this)"><div class="pecaP" onclick="selecionarPeca(event, this)">♟</div></span></div>
+            <div class="preto" onclick="handleClick(this)"><div class="pecaP" onclick="selecionarPeca(event, this)">♟</div></span></div>
+            <div class="branco" onclick="handleClick(this)"><div class="pecaP" onclick="selecionarPeca(event, this)">♟</div></span></div>
+            <div class="preto" onclick="handleClick(this)"><div class="pecaP" onclick="selecionarPeca(event, this)">♟</div></span></div>
+            <div class="branco" onclick="handleClick(this)"><div class="pecaP" onclick="selecionarPeca(event, this)">♟</div></span></div>
+            <div class="preto" onclick="handleClick(this)"><div class="pecaP" onclick="selecionarPeca(event, this)">♟</div></span></div>
+            <div class="branco" onclick="handleClick(this)"><div class="pecaP" onclick="selecionarPeca(event, this)">♟</div></span></div>
+        </div>
+
+        <div class="linha"> <!--( Tabuleiro sem peças )-->
+            <div class="branco" onclick="handleClick(this)"></div>
+            <div class="preto" onclick="handleClick(this)"></div>
+            <div class="branco" onclick="handleClick(this)"></div>
+            <div class="preto" onclick="handleClick(this)"></div>
+            <div class="branco" onclick="handleClick(this)"></div>
+            <div class="preto" onclick="handleClick(this)"></div>
+            <div class="branco" onclick="handleClick(this)"></div>
+            <div class="preto" onclick="handleClick(this)"></div>
+        </div>
+
+        <div class="linha"> <!--( Tabuleiro sem peças )-->
+            <div class="preto" onclick="handleClick(this)"></div>
+            <div class="branco" onclick="handleClick(this)"></div>
+            <div class="preto" onclick="handleClick(this)"></div>
+            <div class="branco" onclick="handleClick(this)"></div>
+            <div class="preto" onclick="handleClick(this)"></div>
+            <div class="branco" onclick="handleClick(this)"></div>
+            <div class="preto" onclick="handleClick(this)"></div>
+            <div class="branco" onclick="handleClick(this)"></div>
+        </div>
+
+        <div class="linha"> <!--( Tabuleiro sem peças )-->
+            <div class="branco" onclick="handleClick(this)"></div>
+            <div class="preto" onclick="handleClick(this)"></div>
+            <div class="branco" onclick="handleClick(this)"></div>
+            <div class="preto" onclick="handleClick(this)"></div>
+            <div class="branco" onclick="handleClick(this)"></div>
+            <div class="preto" onclick="handleClick(this)"></div>
+            <div class="branco" onclick="handleClick(this)"></div>
+            <div class="preto" onclick="handleClick(this)"></div>
+        </div>
+
+        <div class="linha"> <!--( Tabuleiro sem peças )-->
+            <div class="preto" onclick="handleClick(this)"></div>
+            <div class="branco" onclick="handleClick(this)"></div>
+            <div class="preto" onclick="handleClick(this)"></div>
+            <div class="branco" onclick="handleClick(this)"></div>
+            <div class="preto" onclick="handleClick(this)"></div>
+            <div class="branco" onclick="handleClick(this)"></div>
+            <div class="preto" onclick="handleClick(this)"></div>
+            <div class="branco" onclick="handleClick(this)"></div>
+        </div>
+
+        <div class="linha"> <!--( Tabuleiro com peças )-->
+            <div class="branco" onclick="handleClick(this)"><div class="pecaB" onclick="selecionarPeca(event, this)">♟</div></span></div>
+            <div class="preto" onclick="handleClick(this)"><div class="pecaB" onclick="selecionarPeca(event, this)">♟</div></span></div>
+            <div class="branco" onclick="handleClick(this)"><div class="pecaB" onclick="selecionarPeca(event, this)">♟</div></span></div>
+            <div class="preto" onclick="handleClick(this)"><div class="pecaB" onclick="selecionarPeca(event, this)">♟</div></span></div>
+            <div class="branco" onclick="handleClick(this)"><div class="pecaB" onclick="selecionarPeca(event, this)">♟</div></span></div>
+            <div class="preto" onclick="handleClick(this)"><div class="pecaB" onclick="selecionarPeca(event, this)">♟</div></span></div>
+            <div class="branco" onclick="handleClick(this)"><div class="pecaB" onclick="selecionarPeca(event, this)">♟</div></span></div>
+            <div class="preto" onclick="handleClick(this)"><div class="pecaB" onclick="selecionarPeca(event, this)">♟</div></span></div>
+        </div>
+
+        <div class="linha"> <!--( Tabuleiro com peças )-->
+            <div class="preto" onclick="handleClick(this)"><div class="pecaB" onclick="selecionarPeca(event, this)">♜</div></span></div>
+            <div class="branco" onclick="handleClick(this)"><div class="pecaB" onclick="selecionarPeca(event, this)">♝</div></span></div>
+            <div class="preto" onclick="handleClick(this)"><div class="pecaB" onclick="selecionarPeca(event, this)">♞</div></span></div>
+            <div class="branco" onclick="handleClick(this)"><div class="pecaB" onclick="selecionarPeca(event, this)">♚</div></span></div>
+            <div class="preto" onclick="handleClick(this)"><div class="pecaB" onclick="selecionarPeca(event, this)">♛</div></span></div>
+            <div class="branco" onclick="handleClick(this)"><div class="pecaB" onclick="selecionarPeca(event, this)">♞</div></span></div>
+            <div class="preto" onclick="handleClick(this)"><div class="pecaB" onclick="selecionarPeca(event, this)">♝</div></span></div>
+            <div class="branco" onclick="handleClick(this)"><div class="pecaB" onclick="selecionarPeca(event, this)">♜</div></span></div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

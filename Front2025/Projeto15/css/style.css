@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    background-color: black;
+
+
+}
+
+.botoes{
+    display: grid; /*( Deixa em linhas )*/
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.botoes button{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+
+.display input{
+    width: 190px;
+    height: 25px;
+}

@@ -1,0 +1,30 @@
+/* Comentario */
+p{
+    color:aquamarine;
+ }
+ body{
+    background-color: darkolivegreen;
+   text-align:center;
+   color: antiquewhite;
+ }
+ 
+ .titulo{
+      font-size: large;
+ }
+ 
+ #texto-branco{
+     color:azure;
+ }
+ 
+ .top{
+     background-color: blue;
+ }
+ 
+ .conteudo{
+     background-color: crimson;
+ }
+ 
+ .rodape{
+     background-color: yellowgreen;
+ }
+ 

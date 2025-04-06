@@ -1,0 +1,33 @@
+.topo {
+    color: white;
+}
+
+#topo {
+    background-color: #3c3c3c;
+}
+
+.topo {
+    background-color: aliceblue;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar a {
+    padding: 10px;
+}
+
+.navbar a:hover {
+    background-color: rgb(237, 159, 159);
+    border-radius: 5px;
+}
+
+.conteudo-black {
+    background-color: #3c3c3c;
+}
+
+.conteudo-blue {
+    background-color: blue;
+}

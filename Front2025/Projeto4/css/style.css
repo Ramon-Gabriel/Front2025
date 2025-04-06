@@ -1,0 +1,29 @@
+form {
+    background-color: lightblue;
+    border-radius: 5px; /*( Borda da cor )*/
+    width: 600px; /*( Tamanho da cor )*/
+    padding: 20px;
+}
+
+label {
+    display: block; /*( Evita a gambiarra (block: um em baixo do outro) )*/
+}
+
+input {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+input [type="submit"] { /*( Cor do botão )*/
+    background-color: black;
+    color: white;
+    border: nome;
+    margin-top: 15px;
+    width: 25%;
+}
+
+input[type="submit"]:hover{ /*( Cor do botão (Apos clicar) )*/
+    background-color: aliceblue;
+}

@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*( Estilização do Tabuleiro )*/
+.tabuleiro {
+    display: flex;
+    flex-direction: column;
+    gap: 0; /*( Sem espaço entre as linhas )*/
+    border: 4px solid black; /*( Borda preta ao redor do tabuleiro )*/
+}
+.linha {
+    display: flex;
+}
+.branco {
+    background-color: white;
+    width: 100px;
+    height: 100px;
+}
+.preto {
+    background-color: black;
+    width: 100px;
+    height: 100px;
+}
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*( Estilização das Peças )*/
+.pecaP {
+    color: slategray; /*( Cor do quadrado )*/
+    font-size: 60px; /*( Tamanho da peça )*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /*( Tamanho do quadrado )*/
+    height: 100%; /*( Tamanho do quadrado )*/
+}
+.pecaB {
+    color: rgb(170, 170, 73); /*( Cor do quadrado )*/
+    font-size: 60px; /*( Tamanho da peça )*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /*( Tamanho do quadrado )*/
+    height: 100%; /*( Tamanho do quadrado )*/
+}
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*( Sob o cursor do mouse )*/
+.pecaP:hover { /*( Fara as alterações abaixo ao paçar o mouse )*/
+    outline: 3px solid royalblue; /*( Tamanho, estilo de borda e cor do quadrado selecionado )*/
+    outline-offset: -3px; /*( Manten a "seleção" dentro do quadrado )*/
+    box-sizing: border-box;
+    cursor: pointer; /*( Muda o cursor )*/
+  }
+  
+  .pecaB:hover { /*( Fara as alterações abaixo ao paçar o mouse )*/
+    outline: 3px solid goldenrod; /*( Tamanho, estilo de borda e cor do quadrado selecionado )*/
+    outline-offset: -3px; /*( Manten a "seleção" dentro do quadrado )*/
+    box-sizing: border-box;
+    cursor: pointer; /*( Muda o cursor )*/
+  }
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+  .destino {
+    outline: 3px solid green;
+    outline-offset: -3px;
+    box-sizing: border-box;
+    cursor: pointer;
+  }
+  
+  .selecionado {
+    outline: 3px solid blue;
+    outline-offset: -3px;
+    box-sizing: border-box;
+  }

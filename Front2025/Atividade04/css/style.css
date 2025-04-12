@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(33, 33, 85);
+    margin: 0;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+  
+.capsula {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 25px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+  
+h1 {
+    color: black;
+    margin-top: 0;
+}
+  
+#game-board {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+  
+.guess-row {
+    display: grid;
+    grid-template-columns: repeat(5, 60px);
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+  
+.tile {
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+    font-weight: bold;
+    border: 2px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+  
+.correct {
+    background-color: #6aaa64;
+    color: white;
+    border-color: #6aaa64;
+}
+  
+.present {
+    background-color: #c9b458;
+    color: white;
+    border-color: #c9b458;
+}
+  
+.absent {
+    background-color: #787c7e;
+    color: white;
+    border-color: #787c7e;
+}
+  
+#guess-form {
+    margin-top: 20px;
+}
+  
+#guess-input {
+    padding: 10px;
+    font-size: 16px;
+    width: 200px;
+    text-transform: uppercase;
+}
+  
+.form-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+  
+.barra {
+    background-color: #ffffff;
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 16px;
+    width: 150px;
+    text-align: center;
+    text-transform: uppercase;
+}
+  
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+    background-color: #6aaa64;
+    color: #fff;
+    padding: 13px;
+    border-radius: 20px;
+}
+  
+#message {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
